@@ -52,6 +52,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				impact: {
+					bg: 'hsl(var(--impact-bg))',
+					text: 'hsl(var(--impact-text-primary))',
+					highlight: 'hsl(var(--impact-highlight))',
+					secondary: 'hsl(var(--impact-secondary-text))',
+					header: 'hsl(var(--impact-section-header))',
+					card: 'hsl(var(--impact-card-bg))',
+					border: 'hsl(var(--impact-border))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
